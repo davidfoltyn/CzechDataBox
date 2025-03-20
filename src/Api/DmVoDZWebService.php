@@ -153,5 +153,4 @@ class DmVoDZWebService extends \SoapClient
     {
         return $this->__soapCall('BigMessageDownload', array($parameter));
     }
-
 }
