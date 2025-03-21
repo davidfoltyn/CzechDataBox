@@ -396,8 +396,8 @@ class DataBoxSimpleApi
     private static function mimeType($fileName): bool|string
     {
         $mime_types = array(
-            'isdoc' => 'application/zip',
-            'isdocx' => 'text/xml',
+            'isdoc' => 'text/isdoc',
+            'isdocx' => 'text/isdocx',
             'zfo' => 'application/vnd.software602.filler.form-xml-zip',
         );
 
